@@ -144,8 +144,34 @@ App facilitates discovery and exchange — no involvement in returns.</h3>
             <li>Analytics dashboard</li>
         </ul>
     </div>
+<section>
+  <h2>📂 How to Access Flutter Source Files</h2>
 
-  
+  <p>
+    The Flutter application follows the standard Flutter project structure for better
+    organization and maintainability. All primary application code is located inside
+    the <code>lib</code> directory. The application execution begins from
+    <code>lib/main.dart</code>, which initializes the app, configures Firebase services,
+    and manages routing.
+  </p>
+
+  <p>
+    Each major feature of the application is separated into dedicated files and folders
+    within the <code>lib</code> directory. Screens such as authentication, item feed,
+    and chat are organized into individual files to improve readability.
+    Backend-related operations, including Firebase Authentication and Firestore database
+    interactions, are handled through service files, while reusable UI components and
+    data models are maintained separately.
+  </p>
+
+  <p>
+    This modular structure allows developers and reviewers to easily navigate the
+    codebase, understand functionality, and extend the application efficiently.
+  </p>
+</section>
+
+ 
+
   <div class="section">
         <h2>📌 Conclusion</h2>
         <p>
